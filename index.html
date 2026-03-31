@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-Commerce Home</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">ShopX</div>
+      <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+      <nav>
+        <ul id="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div>
+        <h1>Big Sale is Live!</h1>
+        <p>Up to 50% off on all products</p>
+        <a href="shop.html"><button>Shop Now</button></a>
+      </div>
+    </section>
+    <section class="highlights">
+      <div class="highlight">
+        <img src="https://picsum.photos/400/300?random=1" alt="" />
+        <h2>Exciting Deals</h2>
+        <p>Grab the best discounts and offers on top products every day.</p>
+      </div>
+
+      <div class="highlight">
+        <img src="https://picsum.photos/400/300?random=2" alt="" />
+        <h2>Amazing Products</h2>
+        <p>
+          Explore a wide range of high-quality products curated just for you.
+        </p>
+      </div>
+
+      <div class="highlight">
+        <img src="https://picsum.photos/400/300?random=3" alt="" />
+        <h2>Fast Delivery</h2>
+        <p>Get your orders delivered quickly and safely to your doorstep.</p>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-container">
+
+        <div class="footer-section">
+          <h2>ShopX</h2>
+          <p>
+            Your one-stop destination for amazing products and exciting deals.
+          </p>
+          <a href="#" class="footer-link">About Us</a>
+        </div>
+
+
+        <div class="footer-section">
+          <h3>Contact</h3>
+          <p>Email: support@shopx.com</p>
+          <p>Phone: +91 98765 43210</p>
+          <p>Location: India</p>
+        </div>
+
+
+        <div class="footer-section">
+          <h3>Follow Us</h3>
+          <div class="social-icons">
+            <a href="#"
+              ><img
+                src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png"
+                alt="Instagram"
+            /></a>
+            <a href="#"
+              ><img
+                src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png"
+                alt="YouTube"
+            /></a>
+            <a href="#"
+              ><img
+                src="https://cdn-icons-png.flaticon.com/512/733/733547.png"
+                alt="Facebook"
+            /></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 ShopX. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script>
+      function toggleMenu() {
+        document.getElementById("nav-list").classList.toggle("active");
+      }
+    </script>
+  </body>
+</html>
