@@ -40,7 +40,6 @@ function displayProducts(products) {
 function applyFilters() {
   let filtered = [...allProducts];
 
-  // 🔍 SEARCH
   const searchValue = document.getElementById("search").value.toLowerCase();
   if (searchValue) {
     filtered = filtered.filter((p) =>
@@ -68,7 +67,6 @@ function applyFilters() {
   displayProducts(filtered);
 }
 
-// EVENT LISTENERS
 document.getElementById("search").addEventListener("input", applyFilters);
 document.getElementById("sort").addEventListener("change", applyFilters);
 document.getElementById("filter").addEventListener("change", applyFilters);
