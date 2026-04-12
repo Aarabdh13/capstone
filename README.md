@@ -1,0 +1,1 @@
+ShopX is an eCommerce website consisting of three main pages: a home page (index), a shop page, and an about page. The shop page displays all products and includes features like search, sorting, and filtering to help users browse through items easily. The about page provides basic information about the website.
